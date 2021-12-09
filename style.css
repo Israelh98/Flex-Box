@@ -1,0 +1,88 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+
+   
+    display: flex;
+    background: yellow;
+    height: 500px;
+
+}
+.banner__item{
+
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    transition: flex 0.7s;
+}
+.banner__item:hover {
+
+    flex-grow: 10;
+
+
+}
+
+.banner__item:hover .banner__title { 
+    transform: rotate(0);
+
+
+}
+
+.banner__item:nth-child(1){
+    
+   
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: url(img_1.png);
+   
+    background-size: cover;
+
+
+    
+
+}
+
+.banner__item:nth-child(2){
+
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: url(img_4.jpg);
+   
+    background-size: cover;
+
+    
+}
+.banner__item:nth-child(3){
+
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: url(img_3.jpg);
+   
+    background-size: cover;
+    
+}
+.banner__item:nth-child(4){
+
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: url(img_5.png);
+   
+    background-size: cover;
+    
+}
+.banner__title {
+    margin: auto;
+ transform: rotate(-90deg);
+
+transform: 0.7s 0.4s;
+
+
+}
